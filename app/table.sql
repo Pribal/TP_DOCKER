@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS db;
+USE db;
+
+CREATE TABLE courses (
+    id INT AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL,
+    PRIMARY KEY (id)
+);
